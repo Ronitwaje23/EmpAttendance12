@@ -12,7 +12,7 @@ namespace EmpAttendance
         {
             Console.WriteLine("welcome to employee wage problam");
             EmpAttendance E=new EmpAttendance();
-            E.EmployeeAttendance();
+            E.DailyEmployeeWage();
             Console.ReadLine();
         }
     }
