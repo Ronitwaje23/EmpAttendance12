@@ -10,9 +10,10 @@ namespace EmpAttendance
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to employee wage problam");
-            EmpAttendance E=new EmpAttendance();
-            E.MonthlyEmpWage();
+            Console.WriteLine("Hello welcome to EmpWage problem");
+            EmpAttendance employee = new EmpAttendance();
+            employee.ComputeEmpwage("DMart", 20, 2, 10);
+            employee.ComputeEmpwage("Reliance", 10, 4, 20);
             Console.ReadLine();
         }
     }
