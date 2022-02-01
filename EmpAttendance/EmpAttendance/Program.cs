@@ -11,9 +11,13 @@ namespace EmpAttendance
         static void Main(string[] args)
         {
             Console.WriteLine("Hello welcome to EmpWage problem");
-            EmpAttendance employee = new EmpAttendance();
-            employee.ComputeEmpwage("DMart", 20, 2, 10);
-            employee.ComputeEmpwage("Reliance", 10, 4, 20);
+
+            EmpAttendance dMart = new EmpAttendance("DMart", 20, 2, 10);
+            EmpAttendance reliance = new EmpAttendance("Reliance", 10, 4, 10);
+            dMart.computeEmpWage();
+            Console.WriteLine(dMart.toString());
+            reliance.computeEmpWage();
+            Console.WriteLine(reliance.toString());
             Console.ReadLine();
         }
     }
