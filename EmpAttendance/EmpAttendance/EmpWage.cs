@@ -26,8 +26,15 @@ namespace EmpAttendance
         {
             this.totalWage = totalWage;
         }
+
+        //Method to show Total Wage of a company.
+        public string toString()
+        {
+            return "Total Wage of a Company: " + this.company + " is " + this.totalWage;
+        }
     }
 }
+
 
 
 
